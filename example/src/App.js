@@ -1,10 +1,20 @@
 import React from 'react'
 
-import { ExampleComponent } from 'react-sum'
+// import { Maincomponent } from 'react-sum'
+import Maincomponent from './Maincomponent'
 import 'react-sum/dist/index.css'
+import Subcomponent from './Subcomponent'
+
 
 const App = () => {
-  return <ExampleComponent text="Create React Library Example 😄" />
+  return(
+<div >    
+        <Maincomponent />
+</div>
+    
+  );
+
+
 }
 
 export default App
